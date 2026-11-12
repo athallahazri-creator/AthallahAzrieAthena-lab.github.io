@@ -12,8 +12,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #2c3531;
     line-height: 1.6;
-    background-image: linear-gradient(rgba(10, 25, 15, 0.7), rgba(10, 25, 15, 0.7)), 
-                      url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80');
+    background-image: linear-gradient(rgba(10, 25, 15, 0.7), rgba(10, 25, 15, 0.7)),
+                      url('https://plus.unsplash.com/premium_photo-1675006717262-a8f9aed248a3?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -115,16 +115,6 @@ nav a:hover {
     margin-bottom: 25px;
 }
 
-.btn {
-    background-color: #2d5a3f;
-    color: #ffffff;
-    padding: 12px 28px;
-    border-radius: 6px;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: 600;
-    font-size: 0.95rem;
-    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .btn:hover {
@@ -132,19 +122,28 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
+.btn-wa {
+    margin-top: 22px;
+    background-color: #25d366;
+}
+
+.btn-wa:hover {
+    background-color: #1da851;
+}
+
 .btn-sm {
-    background-color: #e4efe7;
-    color: #1b3b22;
-    padding: 6px 14px;
+    background-color: #25d366;
+    color: #ffffff;
+    padding: 7px 14px;
     border-radius: 4px;
     text-decoration: none;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 600;
     transition: background-color 0.2s;
 }
 
 .btn-sm:hover {
-    background-color: #2d5a3f;
+    background-color: #1da851;
     color: #ffffff;
 }
 
@@ -152,7 +151,7 @@ nav a:hover {
     text-align: center;
     color: #1b3b22;
     font-size: 1.6rem;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
 }
 
 .judul-section-light {
@@ -254,25 +253,6 @@ nav a:hover {
     font-size: 1.1rem;
     color: #1b3b22;
     margin-bottom: 8px;
-}
-
-.kartu p {
-    color: #555555;
-    font-size: 0.88rem;
-    margin-bottom: 18px;
-    min-height: 40px;
-}
-
-.kartu-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid #f0f0f0;
-    padding-top: 12px;
-}
-
-.harga {
-    font-weight: 700;
     color: #1b3b22;
     font-size: 1.05rem;
 }
@@ -313,6 +293,27 @@ nav a:hover {
     color: #1b3b22;
 }
 
+.daftar-ref {
+    list-style: none;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.daftar-ref li {
+    background: #f4f7f5;
+    border: 1px solid #dce4de;
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+    font-size: 0.93rem;
+    color: #444444;
+}
+
+.daftar-ref a {
+    color: #2d5a3f;
+    font-weight: 600;
+}
+
 footer {
     background-color: rgba(10, 20, 13, 0.95);
     color: #b3c4b7;
@@ -345,7 +346,12 @@ footer {
         gap: 12px;
     }
 
+    nav {
+        text-align: center;
+    }
+
     nav a {
-        margin: 0 10px;
+        margin: 0 8px;
+        display: inline-block;
     }
 }
